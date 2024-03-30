@@ -1,0 +1,4 @@
+INSERT INTO books(title, publication_year, author_id, genre_id)
+VALUES ("Cosmotropolis", 2009, 1, 2), 
+("Saga about the Glass", 1903, 3, 3), 
+("Dro-dro-dra", 1999, 2, 1);

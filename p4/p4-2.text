@@ -1,0 +1,10 @@
+SELECT COUNT(*)
+FROM `goit-rdb-hw`.order_details
+LEFT JOIN `goit-rdb-hw`.orders ON order_details.order_id = orders.id
+RIGHT JOIN `goit-rdb-hw`.customers ON orders.customer_id = customers.id
+INNER JOIN `goit-rdb-hw`.products ON order_details.product_id = products.id
+INNER JOIN `goit-rdb-hw`.categories ON products.category_id = categories.id
+INNER JOIN `goit-rdb-hw`.employees ON orders.employee_id = employees.employee_id
+INNER JOIN `goit-rdb-hw`.shippers ON orders.shipper_id = shippers.id
+INNER JOIN `goit-rdb-hw`.suppliers ON products.supplier_id = suppliers.id;
+

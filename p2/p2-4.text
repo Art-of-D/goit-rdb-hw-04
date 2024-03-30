@@ -1,0 +1,2 @@
+INSERT INTO users(username, email)
+values ("Jo", "zdfgdf@gmail.com"), ("Jack", "oertyop@gmail.com"), ("Alice", "tyuoitouyi@gmail.com");
